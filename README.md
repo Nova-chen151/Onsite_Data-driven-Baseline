@@ -90,7 +90,7 @@ data/B/
     └── scenario_xxx.xodr           # OpenDRIVE road-network file
 ```
 
-Model checkpoints are expected to be placed under the `ckpt/` directory. An example checkpoint path is shown below:
+Model checkpoints are expected to be placed under the `ckpt/` directory. An [example checkpoint](https://yunpan.tongji.edu.cn/link/AA37DAF55B73094639BF22C8B9FCD0CD38) path is shown below:
 
 ```text
 ckpt/epoch=07-step=30440-val_loss=2.52.ckpt
