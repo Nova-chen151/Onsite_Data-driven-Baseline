@@ -81,7 +81,7 @@ data/B/
     └── scenario_xxx.xodr           # OpenDRIVE 路网文件
 ```
 
-模型权重默认放置在 `ckpt/` 目录下。当前可用权重示例：
+模型权重默认放置在 `ckpt/` 目录下。当前[可用权重](https://yunpan.tongji.edu.cn/link/AA37DAF55B73094639BF22C8B9FCD0CD38)示例：
 
 ```text
 ckpt/epoch=07-step=30440-val_loss=2.52.ckpt
