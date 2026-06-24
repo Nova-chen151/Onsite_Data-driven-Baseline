@@ -3,7 +3,7 @@
     <img src="asset/ONSITE-blue-logo-cn_name.svg" alt="OnSite" width="800">
 </a>
 
-# OnSite Train-and-Test Scenario Generation Track Baseline: Data-Driven Simulation Scenario Generation for Autonomous Driving
+# OnSite Unified Train-Test Scenario Generation Track Baseline: Data-Driven Simulation Scenario Generation for Autonomous Driving
 
 <p>
   <strong>English</strong> · <a href="README_zh.md">中文</a>
@@ -20,7 +20,7 @@
 
 ## Overview
 
-This repository provides an implementation for the **OnSite train-and-test integrated scenario generation track**, with a focus on data-driven simulation scenario generation for autonomous driving evaluation. Given historical traffic states from an input OpenSCENARIO file and the corresponding OpenDRIVE road network, the framework uses an **adapted data-driven multi-agent behavior generation model** to predict **background-vehicle** behaviors and exports submission-ready `*_output.xosc` files following the OnSite format. The **ego vehicle is not simulated**; only its historical trajectory from the input scenario is retained.
+This repository provides an implementation for the **OnSite Unified Train-Test Scenario Generation Track**, with a focus on data-driven simulation scenario generation for autonomous driving evaluation. Given historical traffic states from an input OpenSCENARIO file and the corresponding OpenDRIVE road network, the framework uses an **adapted data-driven multi-agent behavior generation model** to predict **background-vehicle** behaviors and exports submission-ready `*_output.xosc` files following the OnSite format. The **ego vehicle is not simulated**; only its historical trajectory from the input scenario is retained.
 
 In addition to batch scenario generation, this repository includes a lightweight visualization pipeline that renders `xosc + xodr` pairs into GIF animations. The visualization utility is designed to facilitate qualitative inspection of generated background-vehicle behaviors, road-network consistency, off-road deletion logic, and overall scenario validity.
 
